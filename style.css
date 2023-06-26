@@ -81,11 +81,16 @@ body {
 
 .pass-indicator#weak:before{
     width: 20%;
+    background: #e64a4a;
+}
+
+.pass-indicator#medium:before{
+    width: 50%;
     background: #f1c80b;
 }
 
 .pass-indicator#strong:before{
-    width: 20%;
+    width: 100%;
     background: #43a047;
 }
 
